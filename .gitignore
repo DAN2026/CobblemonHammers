@@ -1,12 +1,44 @@
-# Project exclude paths
-/.gradle/
+# Eclipse
+bin/
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+/.architectury-transformer/
+eclipse/
+
+# IntelliJ IDEA
+out/
+*.ipr
+*.iws
+*.iml
+.idea/
+
+# Gradle
+.gradle/
+build/
+
+# VS Code
+.vscode/
+
+# Project Roots & Build Outputs
 /build/
-/common/.gradle/
+/.gradle/
 /common/build/
-/common/build/classes/java/main/
-/fabric/.gradle/
+/common/.gradle/
 /fabric/build/
-/fabric/build/classes/java/main/
-/neoforge/.gradle/
+/fabric/.gradle/
 /neoforge/build/
-/neoforge/build/classes/java/main/
+/neoforge/.gradle/
+
+# Forge MDK & Modding Artifacts
+forge*changelog.txt
+run/
+/logs/
+/showdown/
+common/src/main/resources/assets/cobblemon/showdown/
+
+# Generated Files
+*/generated/resources/*
+/fabric/src/generated/resources/cobblemon-common.accesswidener
