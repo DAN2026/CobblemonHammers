@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    " S "
+  ],
+  "key": {
+    "X": {
+      "item": "cobblemon:shiny_stone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "cobblemonhammers:shiny_stone_hammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "cobblemonhammers:item/sun_stone_hammer"
+  }
+}

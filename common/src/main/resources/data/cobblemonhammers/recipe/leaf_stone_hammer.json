@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    " S "
+  ],
+  "key": {
+    "X": {
+      "item": "cobblemon:leaf_stone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "cobblemonhammers:leaf_stone_hammer",
+    "count": 1
+  }
+}

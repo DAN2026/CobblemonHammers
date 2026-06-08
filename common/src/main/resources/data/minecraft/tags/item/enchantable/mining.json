@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "cobblemonhammers:fire_stone_hammer",
+    "cobblemonhammers:water_stone_hammer",
+    "cobblemonhammers:leaf_stone_hammer",
+    "cobblemonhammers:thunder_stone_hammer",
+    "cobblemonhammers:moon_stone_hammer",
+    "cobblemonhammers:sun_stone_hammer",
+    "cobblemonhammers:shiny_stone_hammer",
+    "cobblemonhammers:dawn_stone_hammer",
+    "cobblemonhammers:dusk_stone_hammer",
+    "cobblemonhammers:ice_stone_hammer"
+  ]
+}

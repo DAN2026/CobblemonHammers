@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemonhammers",
+  "version": "${version}",
+  "name": "Cobblemon: Hammers",
+  "description": "A cobblemon sidemod that introduces 10 evolution hammers.",
+  "authors": [
+    "DAN2026"
+  ],
+  "license": "All Rights Reserved",
+  "icon": "assets/icons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.dan2026.cobblemonhammers.fabric.CobblemonHammersFabric"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.7.3 <1.8.0",
+    "architectury": ">=13"
+
+  },
+  "suggests": {
+    "jei": ">=19"
+  }
+}

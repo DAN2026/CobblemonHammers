@@ -1,0 +1,195 @@
+[20:40:25] [main/WARN] (FabricLoader/Knot) Class path entries reference missing files: C:\Users\DanUn\Desktop\Projects\Java\Minecraft\CobblemonHammers\fabric\build\classes\kotlin\main - the game may not load properly!
+[20:40:25] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
+[20:40:26] [main/INFO] (FabricLoader) Loading 49 mods:
+	- architectury 13.0.6
+	- cobblemon 1.7.3+1.21.1
+	- cobblemonhammers 1.0.0-SNAPSHOT
+	- fabric-api 0.116.6+1.21.1
+	- fabric-api-base 0.4.42+6573ed8c19
+	- fabric-api-lookup-api-v1 1.6.71+b559734419
+	- fabric-biome-api-v1 13.0.31+d527f9fd19
+	- fabric-block-api-v1 1.1.0+0bc3503219
+	- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	- fabric-command-api-v1 1.2.49+f71b366f19
+	- fabric-command-api-v2 2.2.28+6ced4dd919
+	- fabric-commands-v0 0.2.66+df3654b319
+	- fabric-content-registries-v0 8.0.19+b559734419
+	- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	- fabric-convention-tags-v2 2.11.1+a406e79519
+	- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	- fabric-data-generation-api-v1 20.2.33+37516cd619
+	- fabric-dimensions-v1 4.0.1+65213ef819
+	- fabric-entity-events-v1 1.8.0+2b27e0a419
+	- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	- fabric-gametest-api-v1 2.0.5+6fc22b9919
+	- fabric-item-api-v1 11.2.0+3b3cb2e819
+	- fabric-item-group-api-v1 4.1.7+def88e3a19
+	- fabric-language-kotlin 1.13.6+kotlin.2.2.20
+	- fabric-lifecycle-events-v1 2.6.0+0865547519
+	- fabric-loot-api-v2 3.0.15+3f89f5a519
+	- fabric-loot-api-v3 1.0.3+3f89f5a519
+	- fabric-message-api-v1 6.0.14+8aaf3aca19
+	- fabric-networking-api-v1 4.3.0+c7469b2119
+	- fabric-object-builder-api-v1 15.2.1+40875a9319
+	- fabric-particles-v1 4.0.2+6573ed8c19
+	- fabric-recipe-api-v1 5.0.14+248df81c19
+	- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	- fabric-resource-loader-v0 1.3.1+5b5275af19
+	- fabric-screen-handler-api-v1 1.3.90+b559734419
+	- fabric-transfer-api-v1 5.4.3+c24bd99419
+	- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.17.2
+	- generated_a370166 1.0.0
+	- generated_aa7ac09 1.0.0
+	- generated_c48ff7a 1.0.0
+	- java 21
+	- minecraft 1.21.1
+	- mixinextras 0.5.0
+[20:40:26] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/DanUn/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:40:26] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:40:26] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[20:40:26] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[20:40:26] [main/WARN] (FabricLoader/Mixin) Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.RuntimeException: Cannot load class com.mojang.blaze3d.audio.Channel in environment type SERVER)
+[20:40:26] [main/WARN] (FabricLoader/Mixin) @Mixin target com.mojang.blaze3d.audio.Channel was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
+[20:40:26] [main/WARN] (FabricLoader/Mixin) Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[20:40:26] [main/WARN] (FabricLoader/Mixin) @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[20:40:26] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/client/sounds/SoundEngine (java.lang.RuntimeException: Cannot load class net.minecraft.client.sounds.SoundEngine in environment type SERVER)
+[20:40:26] [main/WARN] (FabricLoader/Mixin) @Mixin target net.minecraft.client.sounds.SoundEngine was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
+[20:40:26] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:40:32] [main/INFO] (Cobblemon) Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[20:40:32] [main/INFO] (Cobblemon) Launching Cobblemon 1.7.3 
+[20:40:32] [main/ERROR] (Minecraft) No data fixer registered for cobblemon:pokemon
+[20:40:32] [main/ERROR] (Minecraft) No data fixer registered for cobblemon:empty_pokeball
+[20:40:32] [main/ERROR] (Minecraft) No data fixer registered for cobblemon:boat
+[20:40:32] [main/ERROR] (Minecraft) No data fixer registered for cobblemon:chest_boat
+[20:40:32] [main/ERROR] (Minecraft) No data fixer registered for cobblemon:poke_bobber
+[20:40:32] [main/ERROR] (Minecraft) No data fixer registered for cobblemon:generic_bedrock
+[20:40:32] [main/ERROR] (Minecraft) No data fixer registered for cobblemon:npc
+[20:40:33] [main/INFO] (Cobblemon) Starting the Best Spawner...
+[20:40:33] [main/INFO] (Cobblemon) Loaded 7 spawning condition types.
+[20:40:33] [main/INFO] (Cobblemon) Loaded 6 spawnable position types.
+[20:40:33] [main/INFO] (Cobblemon) Loaded 3 spawn detail types.
+[20:40:33] [Cobblemon Showdown/INFO] (Cobblemon) Starting showdown service...
+[20:40:34] [Cobblemon Showdown/INFO] (Cobblemon) Showdown has been started!
+[20:40:34] [main/INFO] (Cobblemon) Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:molang registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:species_features registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:global_species_features registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:species_feature_assignments registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:action_effects registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:moves registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:abilities registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:behaviours registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:species registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:species_additions registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:pokeballs registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:properties_tab_completion registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:spawn_detail_presets registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:spawn_rules registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:mechanics registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:bag_items registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:held_items registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:dialogues registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:natural_materials registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:fossils registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:npc_preset registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:npc registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:dex_entries registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:dex_entry_additions registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:dexes registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:dex_additions registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:cosmetic_items registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:callbacks registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:unlockable_pc_box_wallpapers registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:marks registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:starters registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:spawn_pool_world registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:pokerods registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:berries registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:seasonings registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:pokemon_interactions registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:spawn_bait_effects registry
+[20:40:34] [main/INFO] (Cobblemon) Registered the cobblemon:ride_settings registry
+[20:40:35] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:40:35] [main/WARN] (Minecraft) Missing data pack generated_871b01b
+[20:40:35] [main/INFO] (Minecraft) Found new data pack generated_c48ff7a, loading it automatically
+[20:40:36] [main/INFO] (Minecraft) Loaded 2050 recipes
+[20:40:36] [main/INFO] (Minecraft) Loaded 2152 advancements
+[20:40:36] [main/INFO] (Cobblemon) Loaded 10 server scripts and 1 client scripts
+[20:40:38] [main/INFO] (Cobblemon) Loaded 936 moves
+[20:40:38] [main/INFO] (Cobblemon) Loaded 314 abilities
+[20:40:38] [main/INFO] (Cobblemon) Loaded 48 entity behaviours
+[20:40:39] [main/INFO] (Cobblemon) Finished additions
+[20:40:39] [cobblemon Datafixer Bootstrap/INFO] (Minecraft) 4 Datafixer optimizations took 29 milliseconds
+[20:40:39] [main/INFO] (Cobblemon) Loaded 1025 Pokémon species
+[20:40:39] [main/INFO] (Cobblemon) Loaded 28 spawn detail presets.
+[20:40:39] [main/INFO] (Cobblemon) Starting dummy Showdown battle to force it to pre-load data.
+[20:40:40] [main/INFO] (Cobblemon) Imported 266 held item IDs from showdown
+[20:40:40] [main/INFO] (Cobblemon) Loaded 15 fossils
+[20:40:40] [main/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
+[20:40:40] [main/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
+[20:40:40] [main/INFO] (Cobblemon) Loaded 6 callbacks and 0 client callbacks
+[20:40:40] [main/INFO] (Cobblemon) Loaded 168 marks
+[20:40:41] [main/INFO] (Cobblemon) Loaded 70 berries
+[20:40:41] [main/INFO] (Cobblemon) Loaded 137 Pokémon interaction sets
+[20:40:42] [main/INFO] (BiomeModificationImpl) Applied 616 biome modifications to 64 of 64 new biomes in 11.97 ms
+[20:40:42] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.21.1
+[20:40:42] [Server thread/INFO] (Minecraft) Loading properties
+[20:40:42] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[20:40:42] [Server thread/INFO] (Minecraft) Generating keypair
+[20:40:42] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[20:40:42] [Server thread/INFO] (Minecraft) Using default channel type
+[20:40:42] [Server thread/WARN] (Minecraft) **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:40:42] [Server thread/WARN] (Minecraft) The server will make no attempt to authenticate usernames. Beware.
+[20:40:42] [Server thread/WARN] (Minecraft) While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:40:42] [Server thread/WARN] (Minecraft) To change this, set "online-mode" to "true" in the server.properties file.
+[20:40:42] [Server thread/INFO] (Minecraft) Preparing level "world"
+[20:40:43] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[20:40:43] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
+[20:40:43] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 51%
+[20:40:44] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 51%
+[20:40:45] [Worker-Main-10/INFO] (Minecraft) Preparing spawn area: 51%
+[20:40:45] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 51%
+[20:40:45] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 51%
+[20:40:46] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 51%
+[20:40:46] [Server thread/INFO] (Minecraft) Time elapsed: 3133 ms
+[20:40:46] [Server thread/INFO] (Minecraft) Done (3.902s)! For help, type "help"
+[20:40:46] [Server thread/INFO] (Cobblemon) Optimizing spawn pools...
+[20:40:46] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
+	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
+	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
+	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
+	Default is `SHORT`.
+
+[20:42:52] [Server thread/INFO] (Minecraft) Player904[/127.0.0.1:65495] logged in with entity id 20 at (-31.5, 65.0, -6.5)
+[20:42:52] [Server thread/ERROR] (Cobblemon) .old File cobblemonplayerdata for c4f44bdc-3735-3cd8-a9bc-fcc7058fd604 is corrupt or missing. Data is lost
+[20:42:52] [Server thread/ERROR] (Cobblemon) .old File pokedex for c4f44bdc-3735-3cd8-a9bc-fcc7058fd604 is corrupt or missing. Data is lost
+[20:42:52] [Server thread/INFO] (Minecraft) Player904 joined the game
+[20:43:08] [Server thread/INFO] (Minecraft) Made Dev a server operator
+[20:43:19] [Server thread/INFO] (Minecraft) Made Player904 a server operator
+[20:43:23] [Server thread/INFO] (Minecraft) [Player904: Set own game mode to Creative Mode]
+[20:43:44] [Server thread/INFO] (Minecraft) [Player904: Set own game mode to Survival Mode]
+[20:43:56] [Server thread/INFO] (Minecraft) Player904 has made the advancement [Stone Age]
+[20:44:24] [Server thread/INFO] (Minecraft) Player904 lost connection: Disconnected
+[20:44:24] [Server thread/INFO] (Minecraft) Player904 left the game
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             [20:42:50] [Render thread/INFO] (Minecraft) Connecting to localhost, 25565
+[20:42:53] [Render thread/INFO] (Cobblemon) Loaded 15 fossils
+[20:42:53] [Render thread/INFO] (Cobblemon) Loaded 168 marks
+[20:42:53] [Render thread/INFO] (Cobblemon) Loaded 70 berries
+[20:42:53] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[20:42:57] [cobblemon Datafixer Bootstrap/INFO] (Minecraft) 4 Datafixer optimizations took 4 milliseconds
+[20:43:19] [Render thread/INFO] (Minecraft) [System] [CHAT] [Server: Made Player904 a server operator]
+[20:43:23] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[20:43:44] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
+[20:43:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Player904 has made the advancement [Stone Age]
+[20:43:56] [Render thread/INFO] (Minecraft) Loaded 31 advancements
+[20:43:57] [Render thread/INFO] (Minecraft) Loaded 41 advancements
+[20:44:10] [Render thread/INFO] (Minecraft) Loaded 51 advancements
+[20:44:16] [Render thread/INFO] (Minecraft) Loaded 53 advancements
+[20:44:25] [Render thread/INFO] (Minecraft) Stopping!
