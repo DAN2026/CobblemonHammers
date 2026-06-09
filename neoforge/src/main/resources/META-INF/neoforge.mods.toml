@@ -43,7 +43,5 @@ side = "BOTH"
 
 [[dependencies.cobblemonhammers]]
 modId = "jei"
-mandatory = false
-versionRange = "[19,)"
-ordering = "NONE"
-side = "BOTH"
+type = "optional"
+versionRange = "[19.0,)"
